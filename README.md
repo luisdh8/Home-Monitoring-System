@@ -4,7 +4,7 @@ The Home Monitoring System project aims to promote the efficient use of electric
 
 ## Components Integrated into the Project
 
-- **NodeMCU (esp8266):** The core module for IoT communication and control.
+- **NodeMCU (ESP8266):** The core module for IoT communication and control.
 - **Relay Module:** Used for controlling electrical appliances.
 - **Light-Dependent Resistor (GL55):** Enables light control for energy-efficient lighting.
 - **Temperature Sensor (ds18b20):** Monitors the temperature in the home.
@@ -15,8 +15,17 @@ This repository serves as a platform for sharing the project's source code, sche
 
 ## Getting Started
 
-For detailed instructions on how to set up and use the Home Monitoring System, please refer to the project's [Wiki](https://github.com/your-username/Home-Monitoring-System/wiki).
+For detailed instructions on how to set up and use the Home Monitoring System, please refer to the project's model in the following images:
+![image](https://github.com/luisdh8/Home-Monitoring-System/assets/126299448/4723b098-47ff-48f3-a7f4-3224ca90f3a8)
+![image](https://github.com/luisdh8/Home-Monitoring-System/assets/126299448/fb723bbf-a4fa-425c-a8dd-50d0ea1beecd)
+Then, install the app "AppInventor" on a mobile device.
 
+## Usage
+
+1. Build the circuit model with the components mentioned in "Components Integrated into the Project".
+2. Connect the ESP8266 via USB to the computer and execute the code in an ArduinoIDE.
+3. Import the file "app.aia" to your projects in your account at https://appinventor.mit.edu/.
+4. Connect your mobile with the code of AppInventor by scanning a QR.
 ## Contributing
 
 We welcome contributions from the open-source community. If you have ideas for improvements or new features, feel free to open an issue or create a pull request.
